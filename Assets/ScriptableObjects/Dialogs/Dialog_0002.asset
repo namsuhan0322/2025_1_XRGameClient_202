@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0c0d1b36f92d04ea5f59bf1c0c4bde, type: 3}
+  m_Name: Dialog_0002
+  m_EditorClassIdentifier: 
+  id: 2
+  characterName: "\uB0B4\uB808\uC774\uD130"
+  text: "\uC5B4\uB290 \uAE38\uB85C \uAC00\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+  nextId: -1
+  choice:
+  - {fileID: 11400000, guid: e17bf0e731618b641bea7494110315b4, type: 2}
+  - {fileID: 11400000, guid: 9feb86b0fd8318b4d9fd440b0f300298, type: 2}
+  portrait: {fileID: 0}
+  portraitPath: Characters/Narrator
