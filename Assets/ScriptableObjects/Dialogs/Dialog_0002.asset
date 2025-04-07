@@ -15,9 +15,9 @@ MonoBehaviour:
   id: 2
   characterName: "\uB0B4\uB808\uC774\uD130"
   text: "\uC5B4\uB290 \uAE38\uB85C \uAC00\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
-  nextId: -1
-  choice:
+  nextId: 3
+  choices:
   - {fileID: 11400000, guid: e17bf0e731618b641bea7494110315b4, type: 2}
   - {fileID: 11400000, guid: 9feb86b0fd8318b4d9fd440b0f300298, type: 2}
-  portrait: {fileID: 0}
+  portrait: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   portraitPath: Characters/Narrator

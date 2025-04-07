@@ -214,7 +214,7 @@ public class JsonToScriptableConverter : EditorWindow
                     dialogSO.text = rowData.text;
                     dialogSO.nextId = rowData.id.HasValue ? rowData.nextId.Value : -1;
                     dialogSO.portraitPath = rowData.portraitPath;
-                    dialogSO.choice = new List<DialogChoiceSO>();
+                    dialogSO.choices = new List<DialogChoiceSO>();
 
                     // 초상화 로드 (경로가 있는 경우)
                     if (!string.IsNullOrEmpty(rowData.portraitPath))
@@ -266,11 +266,11 @@ public class JsonToScriptableConverter : EditorWindow
                         choiceSO.nextId = rowData.choiceNextId.Value;
 
                         //선택지 에셋 저장
-                        string choiceAssetPath = $"{outputFolder}/Choice_{parentId}_{parentDialog.choice.Count + 1}.asset";
+                        string choiceAssetPath = $"{outputFolder}/Choice_{parentId}_{parentDialog.choices.Count + 1}.asset";
                         AssetDatabase.CreateAsset(choiceSO, choiceAssetPath);
                         EditorUtility.SetDirty(choiceSO);
 
-                        parentDialog.choice.Add(choiceSO);
+                        parentDialog.choices.Add(choiceSO);
                     }
                     else
                     {

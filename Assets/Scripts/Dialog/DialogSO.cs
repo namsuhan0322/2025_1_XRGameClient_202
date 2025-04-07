@@ -9,7 +9,7 @@ public class DialogSO : ScriptableObject
     public string characterName;
     public string text;
     public int nextId;
-    public List<DialogChoiceSO> choice = new List<DialogChoiceSO> ();
+    public List<DialogChoiceSO> choices = new List<DialogChoiceSO> ();
     public Sprite portrait;
 
     [Tooltip("초상화 리소스 경로 (Resources 폴더 내의 경로)")]
