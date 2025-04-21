@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a84a5ac92eca956438a8e82e5beb8516, type: 3}
   m_Name: Card_002
   m_EditorClassIdentifier: 
-  cardName: "\uD790"
-  description: "\uCCB4\uB825\uC6B8 \uD68C\uBCF5 \uD55C\uB2E4."
-  artwork: {fileID: 21300000, guid: feb8709f10385a94095b55fe8d0f625c, type: 3}
-  manaCost: 0
-  effectAmount: 2
-  cardType: 1
+  cardName: "\uACF5\uACA9 \uD654\uC0B4"
+  description: "\uACF5\uACA9 \uD654\uC0B4\uB97C \uC3DC\uB2E4."
+  artwork: {fileID: 21300000, guid: 3925691c2a021aa429c1dc89712a1253, type: 3}
+  manaCost: 1
+  effectAmount: 1
+  cardType: 0
