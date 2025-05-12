@@ -697,6 +697,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 715b7af2ba82a6b41bd6c6035fdaea3d, type: 2}
   - {fileID: 11400000, guid: b740af11847b8364c85211ef3c257e4e, type: 2}
   - {fileID: 11400000, guid: bff7ae768a7525640b6661415aff463d, type: 2}
+  - {fileID: 11400000, guid: 168d3d99f20a20e479f2ff53a2c74dfb, type: 2}
+  - {fileID: 11400000, guid: 12fd8c56ae24b774c94be85d5b01111f, type: 2}
+  - {fileID: 11400000, guid: dcd272ef785368742bbc01e3f9259af5, type: 2}
+  - {fileID: 11400000, guid: dcd272ef785368742bbc01e3f9259af5, type: 2}
+  - {fileID: 11400000, guid: 12fd8c56ae24b774c94be85d5b01111f, type: 2}
+  - {fileID: 11400000, guid: 168d3d99f20a20e479f2ff53a2c74dfb, type: 2}
+  - {fileID: 11400000, guid: 401d94b311fc4dd47a0f94282c994b2a, type: 2}
+  - {fileID: 11400000, guid: 401d94b311fc4dd47a0f94282c994b2a, type: 2}
+  - {fileID: 11400000, guid: 401d94b311fc4dd47a0f94282c994b2a, type: 2}
   handCards: []
   discardCards: []
   cardPrefab: {fileID: 3093976167983357942, guid: bb7c93990c1f53e42b2b9666c30dab86,
@@ -870,7 +879,7 @@ GameObject:
   - component: {fileID: 1065475745}
   m_Layer: 7
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -999,7 +1008,7 @@ GameObject:
   - component: {fileID: 1071009735}
   m_Layer: 8
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
