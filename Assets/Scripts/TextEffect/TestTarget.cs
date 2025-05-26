@@ -6,9 +6,9 @@ public class TestTarget : MonoBehaviour
     [SerializeField] private int maxDamage = 50;
     [SerializeField] private int minHeal = 10;
     [SerializeField] private int maxHeal = 60;
-    [SerializeField] private float criticalChance = 0.2f; // 20% 크리티컬 확률
-    [SerializeField] private float missChance = 0.1f; // 10% 미스 확률
-    [SerializeField] private float statusEffectChance = 0.15f; // 15% 상태이상 확률
+    [SerializeField] private float criticalChance = 0.2f;           // 20% 크리티컬 확률
+    [SerializeField] private float missChance = 0.1f;               // 10% 미스 확률
+    [SerializeField] private float statusEffectChance = 0.15f;      // 15% 상태이상 확률
 
     // 상태이상 종류
     private string[] statusEffects = { "Poison", "Burn", "Freeze", "Stun", "Blind", "Silence" };
@@ -20,7 +20,6 @@ public class TestTarget : MonoBehaviour
 
         if (randomValue < missChance)
         {
-            // 미스
             ShowMiss();
         }
         else if (randomValue < 0.5f) // 50% 확률로 데미지

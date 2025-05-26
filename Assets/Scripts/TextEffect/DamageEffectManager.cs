@@ -7,8 +7,8 @@ public class DamageEffectManager : MonoBehaviour
 {
     public static DamageEffectManager Instance { get; private set; }
 
-    [SerializeField] private GameObject textPrefab; // UI 데미지 텍스트 프리팹
-    [SerializeField] private Canvas uiCanvas; // UI 캔버스 참조
+    [SerializeField] private GameObject textPrefab;
+    [SerializeField] private Canvas uiCanvas;
 
     private void Awake()
     {
@@ -146,19 +146,19 @@ public class DamageEffectManager : MonoBehaviour
         switch (effectName.ToLower())
         {
             case "poison":
-                color = new Color(0.5f, 0.1f, 0.5f); // 보라색
+                color = new Color(0.5f, 0.1f, 0.5f);        // 보라색
                 break;
             case "burn":
-                color = new Color(1f, 0.4f, 0f); // 주황색
+                color = new Color(1f, 0.4f, 0f);            // 주황색
                 break;
             case "freeze":
-                color = new Color(0.5f, 0.8f, 1f); // 하늘색
+                color = new Color(0.5f, 0.8f, 1f);          // 하늘색
                 break;
             case "stun":
-                color = new Color(1f, 1f, 0f); // 노란색
+                color = new Color(1f, 1f, 0f);              // 노란색
                 break;
             default:
-                color = new Color(1f, 1f, 1f); // 기본 흰색
+                color = new Color(1f, 1f, 1f);              // 기본 흰색
                 break;
         }
 
